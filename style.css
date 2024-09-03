@@ -1,0 +1,579 @@
+* {
+    margin: 0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar {
+    background-color: #0f1111;
+    height: 60px;
+   
+    color: white;
+    display: flex;
+    flex-direction: row;
+    
+    
+
+}
+.logoout {
+    height: 50px;
+    width: 115px;
+    margin-right: 25px;
+}
+.logoin {
+    height: 50px;
+    width: 115px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+.delto {
+    color: #cccccc;
+    height: 15px;
+    width: 60px;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 17px;
+}
+.locawithcountry {
+    font-size: 20px;
+}
+.addtotalOUT {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 80px;
+    margin-top: 4px;
+    
+}
+.selectsearchbar {
+   position: relative;
+   left: 20px;
+   top: 10px;
+   margin-left: 5px;
+   
+}
+.all {
+   position: relative;
+   left: 5px;
+   background-color: lightgrey;
+   height: 40px;
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   width: 50px;
+   text-align: center;
+   font-size: 1.2rem;
+   
+}
+.searchbar {
+    position: relative;
+    left: 55px;
+    bottom: 40px;
+    height: 35px;
+    width: 720px;
+}
+.searchicon {
+    position: relative;
+    bottom: 80px;
+    left: 783px;
+    background-color:rgb(255,174,0);
+    width: 45px;
+    height: 39px;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+    
+}
+.helacc {
+    display: inline;
+    position: relative;
+    left: 170px;
+    top: 13px;
+    height: 40px;
+}
+.sign {
+    font-size: small;
+}
+.acclis {
+    font-weight: bold;
+}
+.retord {
+    display: inline;
+    position: relative;
+    top: 12px;
+    height: 40px;
+    left: 230px;
+}
+.Returns {
+    font-size: small;
+
+}
+.ord {
+    font-weight: 700;
+
+}
+.all:hover {
+    border: 1.5px solid rgb(239, 195, 126);
+}
+.searchbar:hover {
+    border: 2px solid rgb(255, 174, 0);
+}
+.searchicon:hover {
+    border: 1.5px solid rgb(222, 193, 130);
+}
+.carwithicon {
+    position: relative;
+    top: 50px;
+    left: 275px;
+    
+}
+.carticon {
+    font-size: 2rem;
+    position: relative;
+    bottom: 40px;
+
+}
+.cart {
+    position: relative;
+    bottom: 60px;
+    left: 35px;
+    font-weight: 700;
+}
+.panel {
+background-color: #071b42;
+height: 40px;
+
+color: white;
+display: flex;
+flex-direction: row;
+}
+.all1 {
+    position: relative;
+    left: 20px;
+    
+    
+    top: 5px;
+    font-size: 1.4rem;
+}
+.menu {
+    position: relative;
+    left: 25px;
+    bottom: 22px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.panelopt {
+    position: relative;
+    top: 10px;
+    left: 55px;
+    width: 415px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.opt1 {
+    display: inline;
+    font-size: small;
+}
+.opt2 {
+    display: inline;
+    font-size: small;
+}
+.opt3 {
+    display: inline;
+    font-size: small;
+}
+.opt4 {
+    display: inline;
+    font-size: small;
+}
+.opt5 {
+    display: inline;
+    font-size: small;
+}
+.paneldeal {
+    position: relative;
+    left: 840px;
+    top: 10px;
+}
+.heroimg {
+    background-image: url("hero_image.jpg");
+    background-size:cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.heronote {
+    position: relative;
+    top: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopsection {
+    display: flex;
+    position: relative;
+    bottom: 150px;
+    justify-content: space-evenly;
+    z-index: 1;
+    
+}
+.shopsection1 {
+    display: flex;
+    position: relative;
+    bottom: 150px;
+    justify-content: space-evenly;
+    z-index: 1;
+    margin-top: 20px;
+}
+.box1 {
+    height: 390px;
+    width: 330px;
+    border: 2px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.hp {
+    position: relative;
+    top: 10px;
+    left: 29px;
+    font-size: 1.3rem;
+}
+.hp1 {
+    position: relative;
+    top: 10px;
+    left: 29px;
+    font-size: 1.3rem;
+}
+.hp2 {
+    position: relative;
+    top: 10px;
+    left: 29px;
+    font-size: 1.3rem;
+}
+.hp3 {
+    position: relative;
+    top: 10px;
+    left: 29px;
+    font-size: 1.3rem;
+}
+.hp4 {
+    position: relative;
+    top: 10px;
+    left: 29px;
+    font-size: 1.3rem;
+}
+.hp5 {
+    position: relative;
+    top: 10px;
+    left: 29px;
+    font-size: 1.3rem;
+}
+.hp6 {
+    position: relative;
+    top: 10px;
+    left: 29px;
+    font-size: 1.3rem;
+}
+.hp7 {
+    position: relative;
+    top: 10px;
+    left: 29px;
+    font-size: 1.3rem;
+}
+.sm {
+    position: relative;
+    top: 40px;
+    left: 28px;
+    color: #007185;
+    font-weight: 300;
+}
+.sm1 {
+    position: relative;
+    top: 40px;
+    left: 28px;
+    color: #007185;
+    font-weight: 300;
+}
+.sm2 {
+    position: relative;
+    top: 40px;
+    left: 28px;
+    color: #007185;
+    font-weight: 300;
+}
+.sm3 {
+    position: relative;
+    top: 40px;
+    left: 28px;
+    color: #007185;
+    font-weight: 300;
+}
+.sm4 {
+    position: relative;
+    top: 40px;
+    left: 28px;
+    color: #007185;
+    font-weight: 300;
+}
+.sm5 {
+    position: relative;
+    top: 40px;
+    left: 28px;
+    color: #007185;
+    font-weight: 300;
+}
+.sm6 {
+    position: relative;
+    top: 40px;
+    left: 28px;
+    color: #007185;
+    font-weight: 300;
+}
+.sm7 {
+    position: relative;
+    top: 40px;
+    left: 28px;
+    color: #007185;
+    font-weight: 300;
+}
+    
+
+.box2 {
+    height: 390px;
+    width: 330px;
+    border: 2px solid black;
+background-color: white;
+}
+.box3 {
+    height: 390px;
+    width: 330px;
+    border: 2px solid black;
+    background-color: white;
+
+}
+.box4 {
+    height: 390px;
+    width: 330px;
+    border: 2px solid black;
+background-color: white;
+}
+.img1 {
+    height: 290px;
+    width: 290px;
+    background-image: url("box2_image.jpg") ; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img2 {
+    height: 290px;
+    width: 290px;
+    background-image: url("box1_image (1).jpg") ; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img3 {
+    height: 290px;
+    width: 290px;
+    background-image: url("box3_image.jpg") ; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img4 {
+    height: 290px;
+    width: 290px;
+    background-image: url("box4_image.jpg") ; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img5 {
+    height: 290px;
+    width: 290px;
+    background-image: url("box5_image.jpg") ; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img6 {
+    height: 290px;
+    width: 290px;
+    background-image: url("box6_image.jpg") ; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img7 {
+    height: 290px;
+    width: 290px;
+    background-image: url("box7_image.jpg") ; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img8 {
+    height: 290px;
+    width: 290px;
+    background-image: url("box8_image.jpg") ; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outimg1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+    top: 25px;
+
+}
+.totalsec {
+    background-color: rgb(227, 227, 227);
+}
+.panel1 {
+    background-color: #37475a;
+    height: 50px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.panel2 {
+    height: 450px;
+    background-color: #232f3e;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+.p21 {
+    
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    position: relative;    
+    top: 30px;
+}
+.p211 {
+    font-weight: 600;
+    font-size: 0.9rem;
+    
+    
+}
+.p22 {
+    
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    position: relative;    
+    top: 30px;
+
+    
+}
+.p221 {
+    font-weight: 600;
+    font-size: 0.9rem;
+    
+    
+}
+.p23 {
+    
+    height: 150px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    position: relative;    
+    top: 30px;
+    
+}
+.p231 {
+    font-weight: 600;
+    font-size: 0.9rem;
+    
+    
+}
+.p24 {
+    
+    height: 330px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    position: relative;    
+    top: 30px;
+    
+}
+.p241 {
+    font-weight: 600;
+    font-size: 0.9rem;
+    
+    
+}
+.panel3 {
+    background-color: #232f3e;
+    height: 70px;
+    border-top: 0.1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p31 {
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 90px;
+    background-size: cover;
+}
+.panel4 {
+    color: white;
+    background-color: #0f1111;
+    height: 100px;
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.p41 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    height: 25px;
+    width: 400px;
+}
